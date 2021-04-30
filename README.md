@@ -1,3 +1,4 @@
+![nba](https://user-images.githubusercontent.com/42545096/116763195-a15f1c00-a9e2-11eb-9cd9-b4c44ed0988c.png)
 # NBA player web application
 first React project for @tuckduck
 ## Functionality
