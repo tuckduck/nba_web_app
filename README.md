@@ -11,7 +11,9 @@ Utilize more builtin React Components rather than building new customs. Main bar
 components dynamically. ie. with the card grid how to create new rows/columns and then insert a new card into them dynamically. Similar
 issue with using React listgroup, instead I had to work around using vanilla html.
 
-Also a better pattern for the dispatcher/holder of references would probably be necessary as the app expands.
+Potential feature would be to add search by team to the search bar. However with the current API would require pulling the database and 
+reindexing locally since the API currently offers no way to search for a player(s) via team id or name. The API search parameter leaves
+much to be desired, so possibly looking for a better API or storing data locally would be options moving forward.
 
-Add search by team to the search bar. However with the current API would require pulling the database and reindexing locally since
-it currently offers no way to search for a player using team id.
+Also my current design of the dispatcher object holding all the component references probably needs improvement. Need to look further
+into React "hooks" and lifecycle methods, seem to provide support for this kind of stuff.
