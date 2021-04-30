@@ -1,4 +1,3 @@
-![nba](https://user-images.githubusercontent.com/42545096/116763195-a15f1c00-a9e2-11eb-9cd9-b4c44ed0988c.png)
 # NBA player web application
 first React project for @tuckduck
 ## Functionality
@@ -18,3 +17,5 @@ much to be desired, so possibly looking for a better API or storing data locally
 
 Also my current design of the dispatcher object holding all the component references probably needs improvement. Need to look further
 into React "hooks" and lifecycle methods, seem to provide support for this kind of stuff.
+
+![nba](https://user-images.githubusercontent.com/42545096/116763195-a15f1c00-a9e2-11eb-9cd9-b4c44ed0988c.png)
